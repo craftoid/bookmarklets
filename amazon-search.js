@@ -5,7 +5,7 @@ javascript:
 	if(q == "") {
 		q = prompt("Search Amazon", "");
 	}
-	if(q != "") { 
+	if(q != null) { 
 		location="http://www.amazon.com/exec/obidos/external-search?keyword="+escape(q).replace(/ /g,"+");
 	} else {
 		location="http://www.amazon.com";
