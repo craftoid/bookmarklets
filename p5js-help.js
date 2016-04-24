@@ -6,9 +6,9 @@ javascript:
 		q = prompt("Search P5 Reference", "");
 	}
 	if(q != "") { 
-		window.open("http://p5js.org/reference/#/p5/" + escape(q).replace(/ /g,"+"));
+		location.assign("http://p5js.org/reference/#/p5/" + escape(q).replace(/ /g,"+"));
 	} else {
-		window.open("http://p5js.org/reference/");
+		location.assign("http://p5js.org/reference/");
 	}
 })();
 
